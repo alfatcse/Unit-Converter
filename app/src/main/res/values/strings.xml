@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="title_activity_area">area</string>
+    <string name="title_activity_weight">Weight</string>
+    <string name="title_activity_time">Time</string>
+    <string name="title_activity_energy">Energy</string>
+    <string name="title_activity_volume">Volume</string>
+    <string name="title_activity_data_transfer_rate">Data_transfer_rate</string>
+</resources>

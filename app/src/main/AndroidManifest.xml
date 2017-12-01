@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alfat.converter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Unit Converter"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Temperature" />
+        <activity
+            android:name=".Weight"
+            android:label="@string/title_activity_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Time" />
+        <activity android:name=".Pressure" />
+        <activity android:name=".Speed" />
+        <activity android:name=".Plane_Angle" />
+        <activity android:name=".Length" />
+        <activity
+            android:name=".Energy"
+            android:label="@string/title_activity_energy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Volume"
+            android:label="@string/title_activity_volume"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Data_transfer_rate"
+            android:label="@string/title_activity_data_transfer_rate"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
